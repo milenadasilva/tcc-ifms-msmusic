@@ -38,3 +38,22 @@
 		backdrop-filter: blur( 30px );
 		-webkit-backdrop-filter: blur( 8px );
 }
+.fas{
+	line-height: inherit;
+	display: block;
+}
+.fas::before{
+	-moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    text-transform: none !important;
+}
+@media screen and (max-width: 500px) {
+	#star{
+		display: none;
+	}
+}
